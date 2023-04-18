@@ -1,30 +1,94 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="27.150121">
-    <testcase classname="verify all filters" name="Filter Option by name" time="10.07107">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="14" time="70.64038">
+    <testcase classname="verify all filters" name="Filter Option by name" time="6.266187">
         <system-out><![CDATA[Given open product page.....................................................passed
 When apply filter by Name (A to Z) of the filter............................passed
 Then verify product are arranged according to name..........................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="verify all filters" name="Filter Option by name 2" time="5.087592">
+    <testcase classname="verify all filters" name="Filter Option by name 2" time="4.847382">
         <system-out><![CDATA[Given open product page.....................................................passed
 When apply filter by Name (Z to A) of the filter............................passed
 Then verify product are arranged according to name..........................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="verify all filters" name="Filter Option by name 3" time="6.02828">
+    <testcase classname="verify all filters" name="Filter Option by name 3" time="5.216778">
         <system-out><![CDATA[Given open product page.....................................................passed
 When apply filter by Price (low to high) of the filter......................passed
 Then verify product are arranged according to name..........................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="verify all filters" name="Filter Option by name 4" time="5.941517">
+    <testcase classname="verify all filters" name="Filter Option by name 4" time="5.613789">
         <system-out><![CDATA[Given open product page.....................................................passed
 When apply filter by Price (high to low) of the filter......................passed
 Then verify product are arranged according to name..........................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Select Product" name="Select with product name" time="0.012443">
+    <testcase classname="Validating the authentic user" name="Valid user valid pass" time="7.320585">
+        <system-out><![CDATA[Given landing page is open..................................................passed
+When entered username.......................................................passed
+And entered password........................................................passed
+And click on button.........................................................passed
+Then home page should appear................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validating the authentic user" name="InValid user valid pass" time="7.185301">
+        <system-out><![CDATA[Given landing page is open..................................................passed
+When entered username.......................................................passed
+And entered password........................................................passed
+And click on button.........................................................passed
+Then home page should appear................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validating the authentic user" name="Valid user Invalid pass" time="7.249212">
+        <system-out><![CDATA[Given landing page is open..................................................passed
+When entered username.......................................................passed
+And entered password........................................................passed
+And click on button.........................................................passed
+Then home page should appear................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validating the authentic user" name="InValid user Invalid pass" time="6.79095">
+        <system-out><![CDATA[Given landing page is open..................................................passed
+When entered username.......................................................passed
+And entered password........................................................passed
+And click on button.........................................................passed
+Then home page should appear................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validating the authentic users" name="Validuser validpass" time="5.776654">
+        <system-out><![CDATA[Given open page.............................................................passed
+When username  as "standard_user" in username field.........................passed
+And password   as "secret_sauce" in password field..........................passed
+And click button............................................................passed
+Then page should appear.....................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validating the authentic users" name="InValiduser validpass" time="4.82532">
+        <system-out><![CDATA[Given open page.............................................................passed
+When username  as "standard" in username field..............................passed
+And password   as "secret_sauce" in password field..........................passed
+And click button............................................................passed
+Then page should appear.....................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validating the authentic users" name="Validuser Invalidpass" time="4.873637">
+        <system-out><![CDATA[Given open page.............................................................passed
+When username  as "standard_user" in username field.........................passed
+And password   as "secret" in password field................................passed
+And click button............................................................passed
+Then page should appear.....................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validating the authentic users" name="InValiduser Invalidpass" time="4.654075">
+        <system-out><![CDATA[Given open page.............................................................passed
+When username  as "standard" in username field..............................passed
+And password   as "secret" in password field................................passed
+And click button............................................................passed
+Then page should appear.....................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Select Product" name="Select with product name" time="0.010219">
         <system-out><![CDATA[Given login into application................................................passed
 When click on product with Name as a"Sauce Labs Backpack"...................passed
 Then product page should open...............................................passed
@@ -32,7 +96,7 @@ And add it to cart..........................................................pass
 And verify product is add to cart...........................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Select Product" name="Click on multiple product" time="0.009219">
+    <testcase classname="Select Product" name="Click on multiple product" time="0.010291">
         <system-out><![CDATA[Given login into application................................................passed
 Then click on product.......................................................passed
 ]]></system-out>

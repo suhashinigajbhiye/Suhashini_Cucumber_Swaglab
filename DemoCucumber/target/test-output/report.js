@@ -233,6 +233,498 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.uri("file:Feature/Login.feature");
+formatter.feature({
+  "name": "Validating the authentic user",
+  "description": "",
+  "keyword": "Feature"
+});
+formatter.background({
+  "name": "",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.step({
+  "name": "landing page is open",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "Login.landing_page_is_open()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Valid user valid pass",
+  "description": "",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "name": "entered username",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "Login.entered_username()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "entered password",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Login.entered_password()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "click on button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Login.click_on_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "home page should appear",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Login.home_page_should_appear()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.background({
+  "name": "",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.step({
+  "name": "landing page is open",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "Login.landing_page_is_open()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "InValid user valid pass",
+  "description": "",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "name": "entered username",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "Login.entered_username()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "entered password",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Login.entered_password()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "click on button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Login.click_on_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "home page should appear",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Login.home_page_should_appear()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.background({
+  "name": "",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.step({
+  "name": "landing page is open",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "Login.landing_page_is_open()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Valid user Invalid pass",
+  "description": "",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "name": "entered username",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "Login.entered_username()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "entered password",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Login.entered_password()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "click on button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Login.click_on_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "home page should appear",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Login.home_page_should_appear()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.background({
+  "name": "",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.step({
+  "name": "landing page is open",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "Login.landing_page_is_open()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "InValid user Invalid pass",
+  "description": "",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "name": "entered username",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "Login.entered_username()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "entered password",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Login.entered_password()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "click on button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Login.click_on_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "home page should appear",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Login.home_page_should_appear()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.uri("file:Feature/LoginWithParameters.feature");
+formatter.feature({
+  "name": "Validating the authentic users",
+  "description": "",
+  "keyword": "Feature"
+});
+formatter.background({
+  "name": "",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.step({
+  "name": "open page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "LoginWithParameters.open_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Validuser validpass",
+  "description": "",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "name": "username  as \"standard_user\" in username field",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "LoginWithParameters.username_as_in_username_field(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "password   as \"secret_sauce\" in password field",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "LoginWithParameters.password_as_in_password_field(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "click button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "LoginWithParameters.click_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "page should appear",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "LoginWithParameters.page_should_appear()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.background({
+  "name": "",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.step({
+  "name": "open page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "LoginWithParameters.open_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "InValiduser validpass",
+  "description": "",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "name": "username  as \"standard\" in username field",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "LoginWithParameters.username_as_in_username_field(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "password   as \"secret_sauce\" in password field",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "LoginWithParameters.password_as_in_password_field(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "click button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "LoginWithParameters.click_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "page should appear",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "LoginWithParameters.page_should_appear()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.background({
+  "name": "",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.step({
+  "name": "open page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "LoginWithParameters.open_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Validuser Invalidpass",
+  "description": "",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "name": "username  as \"standard_user\" in username field",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "LoginWithParameters.username_as_in_username_field(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "password   as \"secret\" in password field",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "LoginWithParameters.password_as_in_password_field(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "click button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "LoginWithParameters.click_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "page should appear",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "LoginWithParameters.page_should_appear()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.background({
+  "name": "",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.step({
+  "name": "open page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "LoginWithParameters.open_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "InValiduser Invalidpass",
+  "description": "",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "name": "username  as \"standard\" in username field",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "LoginWithParameters.username_as_in_username_field(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "password   as \"secret\" in password field",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "LoginWithParameters.password_as_in_password_field(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "click button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "LoginWithParameters.click_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "page should appear",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "LoginWithParameters.page_should_appear()"
+});
+formatter.result({
+  "status": "passed"
+});
 formatter.uri("file:Feature/SelectProduct.feature");
 formatter.feature({
   "name": "Select Product",
